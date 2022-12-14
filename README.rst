@@ -250,6 +250,12 @@ not satisfied. In order to emphasize the importance of these requirements,
 non-compliance results in the full point amount being subtracted from your
 point total. That is, they are all or nothing.
 
+Development Environment (100 points) 
+  This project must *must compile and run*
+  correctly on Odin using the specific version of Java that is enabled
+  by the **CSCI 1302 shell profile**. For this requirement, the term
+  *compile* should be interpreted as *compile with no errors or warnings*.
+
 User-Friendly Experience (10 points)
    The windows of your application
    should not exceed a pixel dimension of ``1280`` (width) by ``720`` (height).
@@ -398,9 +404,9 @@ Working on a Local Machine
    currently in use on Odin (at the time of this writing) is provided below for
    convenience.
 
-   * **Apache Maven 3.8.5**
+   * **Apache Maven 3.8.6**
         https://maven.apache.org/
-   * **Java 17.0.2** (vendor: Oracle Corporation; **not OpenJDK**)
+   * **Java 17.0.5** (vendor: Oracle Corporation; **not OpenJDK**)
         https://www.oracle.com/java/technologies/downloads/
 
    All other dependencies are handled via Maven.
